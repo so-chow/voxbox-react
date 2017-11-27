@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App.css';
 import Card from './Card.js';
-import images from '../images/images.js';
+import jsonCardData from '../images/images.json';
 
 class CardList extends Component {
   constructor(props) {
@@ -12,7 +12,9 @@ class CardList extends Component {
   }
 
   componentWillMount() {
-    images.on('value', data =>{
+    jsonCardData.cards.forEach(card => {
+      let cardArray = this.state.cards
+    })
       const results = images(data.val());
       this.setState({
         cards: results

@@ -27,5 +27,4 @@ const images = {
   hurt: require("./img/hurt.png")
 };
 
-
 export default images;

@@ -1,8 +1,112 @@
 {
-  "images": [
+  "cards": [
     {
       "title": "I",
-      ""
+      "imageUrl": "/img/I.png",
     },
+    {
+      "title": "want",
+      "imageUrl": "/img/want.png",
+    },
+    {
+      "title": "help",
+      "imageUrl": "/img/help.png",
+    },
+    {
+      "title": "more",
+      "imageUrl": "/img/more.png",
+    },
+    {
+      "title": "you",
+      "imageUrl": "/img/you.png",
+    },
+    {
+      "title": "turn",
+      "imageUrl": "/img/turn.png",
+    },
+    {
+      "title": "see",
+      "imageUrl": "/img/see.png",
+    },
+    {
+      "title": "all done",
+      "imageUrl": "/img/alldone.png",
+    },
+    {
+      "title": "hello",
+      "imageUrl": "/img/hello.png",
+    },
+    {
+      "title": "goodbye",
+      "imageUrl": "/img/goodbye.png",
+    },
+    {
+      "title": "yes",
+      "imageUrl": "/img/yes.png",
+    },
+    {
+      "title": "no",
+      "imageUrl": "/img/no.png",
+    },
+    {
+      "title": "please",
+      "imageUrl": "/img/please.png",
+    },
+    {
+      "title": "thank you",
+      "imageUrl": "/img/thankyou.png",
+    },
+    {
+      "title": "again",
+      "imageUrl": "/img/again.png",
+    },
+    {
+      "title": "now",
+      "imageUrl": "/img/now.png",
+    },
+    {
+      "title": "later",
+      "imageUrl": "/img/later.png",
+    },
+    {
+      "title": "later",
+      "imageUrl": "/img/later.png",
+    },
+    {
+      "title": "first",
+      "imageUrl": "/img/first.png",
+    },
+    {
+      "title": "next",
+      "imageUrl": "/img/next.png",
+    },
+    {
+      "title": "last",
+      "imageUrl": "/img/last.png",
+    },
+    {
+      "title": "tired",
+      "imageUrl": "/img/tired.png",
+    },
+    {
+      "title": "happy",
+      "imageUrl": "/img/happy.png",
+    },
+    {
+      "title": "sad",
+      "imageUrl": "/img/sad.png",
+    },
+    {
+      "title": "angry",
+      "imageUrl": "/img/angry.png",
+    },
+    {
+      "title": "excited",
+      "imageUrl": "/img/excited.png",
+    },
+    {
+      "title": "hurt",
+      "imageUrl": "/img/hurt.png",
+    }
   ]
 }
