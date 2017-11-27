@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+  font-family: 'Raleway';
+}
+
+/*.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}*/
+
+/*header styles*/
+.App-header {
+  background-color: #0e7c7b;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.App-intro {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+}
+
+/*form styles*/
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+}
+
+#sentence-strip {
+  margin: 20px 30px;
+  width:100%;
+}
+
+input[type=text]{
+  font-family: 'Raleway';
+  font-size: 30px;
+  width:100%;
+  height: 5em;
+  padding-left:10px;
+  flex: 3;
+}
+
+button{
+  font-family: 'Raleway';
+  height: 100%;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #d62246;
+  flex: 1;
+}
+
+/*tabs styles*/
+.tabs{
+  font-family: 'Raleway';
+  font-size: 20px;
+  padding: 20px 20px 0 20px;
+  border-bottom: 2px solid #d62246;
+  margin-bottom: 20px;
+}
+
+.link {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #d62246;
+  padding: 4px 20px;
+  margin-right: 5px;
+  text-decoration: none;
+}
+
+.is-active {
+  background-color: #ffffff;
+  color: #d62246;
+  text-decoration: none;
+  border-top: 1px solid #d62246;
+  border-left: 1px solid #d62246;
+  border-right: 1px solid #d62246;
+}
+
+/*card container styles*/
+.cards-container{
+  border: 2px solid #d62246;
+  height: 100%;
+  padding: 20px;
+}
+
+.cards {
+  width: 255px;
+  height: 255px;
+  margin: 5px;
+}
+
+/*footer styles*/
+footer {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 5rem;
+  color: silver;
+  font-size: 1.3rem;
+}
+
+.heart{
+  color: pink;
+}
+
+/*@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+*/
