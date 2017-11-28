@@ -1,30 +1,27 @@
 import React, { Component } from 'react';
 import '../App.css';
-import Card from './Card.js';
+import Card from './Card';
 import jsonCardData from '../images/images.json';
+import images from '../images/images';
 
 class CardList extends Component {
   constructor(props) {
     super(props);
     this.state={
-      cards: []
+      cards: jsonCardData
     };
   }
 
-  componentWillMount() {
-    jsonCardData.cards.forEach(card => {
-      let cardArray = this.state.cards
-    })
-      const results = images(data.val());
-      this.setState({
-        cards: results
-      });
-    });
-  }
+  // componentWillMount() {
+
+  // }
+
 
   render() {
 
-    let cardArray = this.state.cards.map(el=>(el=<Card text={el.card} key={el.id}/>));
+    let cardArray = this.state.cards.cards.map((card, index) =>
+      this.props.category === card.category ? <Card title={card.title} src={images[card.title]} key={index} />
+      : "");
 
     return (
       <div>

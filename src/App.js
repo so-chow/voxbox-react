@@ -4,17 +4,19 @@ import Header from './components/Header';
 import SentenceStrip from './components/SentenceStrip';
 import Home from './components/Home';
 import Greetings from './components/Greetings';
+import Modifiers from './components/Modifiers';
 import Feelings from './components/Feelings';
+import Places from './components/Places';
+import Toys from './components/Toys';
+import Snacks from './components/Snacks';
 import Footer from './components/Footer';
+import Food from './components/Food';
 import {
   BrowserRouter as Router,
   Route,
-  Switch,
   NavLink,
-  Link
 } from 'react-router-dom';
 
-// <img src={logo} className="App-logo" alt="logo" />
 
 class App extends Component {
   render() {
@@ -28,10 +30,20 @@ class App extends Component {
                 <NavLink exact={true} className="link" activeClassName="is-active" to="/">Home</NavLink>
                 <NavLink className="link" activeClassName="is-active" to="/Greetings">Greetings</NavLink>
                 <NavLink className="link" activeClassName="is-active" to="/Feelings">Feelings</NavLink>
+                <NavLink className="link" activeClassName="is-active" to="/Modifiers">Modifiers</NavLink>
+                <NavLink className="link" activeClassName="is-active" to="/Places">Places</NavLink>
+                <NavLink className="link" activeClassName="is-active" to="/Toys">Toys</NavLink>
+                <NavLink className="link" activeClassName="is-active" to="/Snacks">Snacks</NavLink>
+                <NavLink className="link" activeClassName="is-active" to="/Food">Food</NavLink>
               </nav>
               <Route exact path="/" component={Home} />
               <Route exact path="/Greetings" component={Greetings} />
               <Route exact path="/Feelings" component={Feelings} />
+              <Route exact path="/Modifiers" component={Modifiers} />
+              <Route path="/Places" component={Places} />
+              <Route path="/Toys" component={Toys} />
+              <Route path="/Snacks" component={Snacks} />
+              <Route path="/Food" component={Food} />
             </div>
           </Router>
         <Footer />

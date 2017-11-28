@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import '../App.css';
+import CardList from './CardList';
 
 class Greetings extends Component {
    render() {
+
     return (
       <div className="cards-container">
-      This is my Greetings page
+        <CardList category="greetings"/>
       </div>
     );
   }

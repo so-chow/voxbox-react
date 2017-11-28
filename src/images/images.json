@@ -2,111 +2,583 @@
   "cards": [
     {
       "title": "I",
-      "imageUrl": "/img/I.png",
+      "category": "home",
+      "image": "../images/img/I.png"
     },
     {
       "title": "want",
-      "imageUrl": "/img/want.png",
+      "category": "home",
+      "image": "../images/img/want.png"
     },
     {
       "title": "help",
-      "imageUrl": "/img/help.png",
+      "category": "home",
+      "image": "../images/img/help.png"
     },
     {
       "title": "more",
-      "imageUrl": "/img/more.png",
+      "category": "home",
+      "image": "../images/img/more.png"
     },
     {
       "title": "you",
-      "imageUrl": "/img/you.png",
+      "category": "home",
+      "image": "../images/img/you.png"
     },
     {
       "title": "turn",
-      "imageUrl": "/img/turn.png",
+      "category": "home",
+      "image": "../images/img/turn.png"
     },
     {
       "title": "see",
-      "imageUrl": "/img/see.png",
+      "category": "home",
+      "image": "../images/img/see.png"
     },
     {
-      "title": "all done",
-      "imageUrl": "/img/alldone.png",
+      "title": "alldone",
+      "category": "home",
+      "image": "../images/img/alldone.png"
     },
     {
       "title": "hello",
-      "imageUrl": "/img/hello.png",
+      "category": "greetings",
+      "image": "../images/img/hello.png"
     },
     {
       "title": "goodbye",
-      "imageUrl": "/img/goodbye.png",
+      "category": "greetings",
+      "image": "../images/img/goodbye.png"
     },
     {
       "title": "yes",
-      "imageUrl": "/img/yes.png",
+      "category": "greetings",
+      "image": "../images/img/yes.png"
     },
     {
       "title": "no",
-      "imageUrl": "/img/no.png",
+      "category": "greetings",
+      "image": "../images/img/no.png"
     },
     {
       "title": "please",
-      "imageUrl": "/img/please.png",
+      "category": "greetings",
+      "image": "../images/img/please.png"
     },
     {
-      "title": "thank you",
-      "imageUrl": "/img/thankyou.png",
+      "title": "thankyou",
+      "category": "greetings",
+      "image": "../images/img/thankyou.png"
     },
     {
       "title": "again",
-      "imageUrl": "/img/again.png",
+      "category": "modifiers",
+      "image": "../images/img/again.png"
     },
     {
       "title": "now",
-      "imageUrl": "/img/now.png",
+      "category": "modifiers",
+      "image": "../images/img/now.png"
     },
     {
       "title": "later",
-      "imageUrl": "/img/later.png",
-    },
-    {
-      "title": "later",
-      "imageUrl": "/img/later.png",
+      "category": "modifiers",
+      "image": "../images/img/later.png"
     },
     {
       "title": "first",
-      "imageUrl": "/img/first.png",
+      "category": "modifiers",
+      "image": "../images/img/first.png"
     },
     {
       "title": "next",
-      "imageUrl": "/img/next.png",
+      "category": "modifiers",
+      "image": "../images/img/next.png"
     },
     {
       "title": "last",
-      "imageUrl": "/img/last.png",
+      "category": "modifiers",
+      "image": "../images/img/last.png"
     },
     {
       "title": "tired",
-      "imageUrl": "/img/tired.png",
+      "category": "feelings",
+      "image": "../images/img/tired.png"
     },
     {
       "title": "happy",
-      "imageUrl": "/img/happy.png",
+      "category": "feelings",
+      "image": "../images/img/happy.png"
     },
     {
       "title": "sad",
-      "imageUrl": "/img/sad.png",
+      "category": "feelings",
+      "image": "../images/img/sad.png"
     },
     {
       "title": "angry",
-      "imageUrl": "/img/angry.png",
+      "category": "feelings",
+      "image": "../images/img/angry.png"
     },
     {
       "title": "excited",
-      "imageUrl": "/img/excited.png",
+      "category": "feelings",
+      "image": "../images/img/excited.png"
     },
     {
       "title": "hurt",
-      "imageUrl": "/img/hurt.png",
+      "category": "feelings",
+      "image": "../images/img/hurt.png"
+    },
+    {
+      "title": "classroom",
+      "category": "places",
+      "image": "../images/img/classroom.png"
+    },
+    {
+      "title": "school",
+      "category": "places",
+      "image": "../images/img/school.png"
+    },
+    {
+      "title": "home",
+      "category": "places",
+      "image": "../images/img/home.png"
+    },
+    {
+      "title": "playground",
+      "category": "places",
+      "image": "../images/img/playground.png"
+    },
+    {
+      "title": "cafeteria",
+      "category": "places",
+      "image": "../images/img/cafeteria.png"
+    },
+    {
+      "title": "bathroom",
+      "category": "places",
+      "image": "../images/img/bathroom.png"
+    },
+    {
+      "title": "lego",
+      "category": "toys",
+      "image": "../images/img/lego.png"
+    },
+    {
+      "title": "bubbles",
+      "category": "toys",
+      "image": "../images/img/bubbles.png"
+    },
+    {
+      "title": "puzzle",
+      "category": "toys",
+      "image": "../images/img/puzzle.png"
+    },
+    {
+      "title": "toycars",
+      "category": "toys",
+      "image": "../images/img/toycars.png"
+    },
+    {
+      "title": "train",
+      "category": "toys",
+      "image": "../images/img/train.png"
+    },
+    {
+      "title": "blocks",
+      "category": "toys",
+      "image": "../images/img/blocks.png"
+    },
+    {
+      "title": "kitchen",
+      "category": "toys",
+      "image": "../images/img/kitchen.png"
+    },
+    {
+      "title": "game",
+      "category": "toys",
+      "image": "../images/img/game.png"
+    },
+    {
+      "title": "ball",
+      "category": "toys",
+      "image": "../images/img/ball.png"
+    },
+    {
+      "title": "playdoh",
+      "category": "toys",
+      "image": "../images/img/playdoh.png"
+    },
+    {
+      "title": "babydoll",
+      "category": "toys",
+      "image": "../images/img/doll.png"
+    },
+    {
+      "title": "dollhouse",
+      "category": "toys",
+      "image": "../images/img/dollhouse.png"
+    },
+    {
+      "title": "yogurt",
+      "category": "snacks",
+      "image": "../images/img/yogurt.png"
+    },
+    {
+      "title": "pretzel",
+      "category": "snacks",
+      "image": "../images/img/pretzel.png"
+    },
+    {
+      "title": "popcorn",
+      "category": "snacks",
+      "image": "../images/img/popcorn.png"
+    },
+    {
+      "title": "crackers",
+      "category": "snacks",
+      "image": "../images/img/crackers.png"
+    },
+    {
+      "title": "fruitsnack",
+      "category": "snacks",
+      "image": "../images/img/fruitsnack.png"
+    },
+    {
+      "title": "fishcrackers",
+      "category": "snacks",
+      "image": "../images/img/fishcrackers.png"
+    },
+    {
+      "title": "sandwich",
+      "category": "food",
+      "image": "../images/img/sandwich.png"
+    },
+    {
+      "title": "pasta",
+      "category": "food",
+      "image": "../images/img/pasta.png"
+    },
+    {
+      "title": "pizza",
+      "category": "food",
+      "image": "../images/img/pizza.png"
+    },
+    {
+      "title": "chickennuggets",
+      "category": "food",
+      "image": "../images/img/chickennuggets.png"
+    },
+    {
+      "title": "cheese",
+      "category": "food",
+      "image": "../images/img/cheese.png"
+    },
+    {
+      "title": "hamburger",
+      "category": "food",
+      "image": "../images/img/hamburger.png"
+    },
+    {
+      "title": "water",
+      "category": "drinks",
+      "image": "../images/img/water.png"
+    },
+    {
+      "title": "milk",
+      "category": "drinks",
+      "image": "../images/img/milk.png"
+    },
+    {
+      "title": "chocolatemilk",
+      "category": "drinks",
+      "image": "../images/img/chocolatemilk.png"
+    },
+    {
+      "title": "applejuice",
+      "category": "drinks",
+      "image": "../images/img/applejuice.png"
+    },
+    {
+      "title": "juicebox",
+      "category": "drinks",
+      "image": "../images/img/juicebox.png"
+    },
+    {
+      "title": "straw",
+      "category": "drinks",
+      "image": "../images/img/straw.png"
+    },
+    {
+      "title": "eyes",
+      "category": "face",
+      "image": "../images/img/eyes.png"
+    },
+    {
+      "title": "ear",
+      "category": "face",
+      "image": "../images/img/ear.png"
+    },
+    {
+      "title": "mouth",
+      "category": "face",
+      "image": "../images/img/mouth.png"
+    },
+    {
+      "title": "nose",
+      "category": "face",
+      "image": "../images/img/nose.png"
+    },
+    {
+      "title": "teeth",
+      "category": "face",
+      "image": "../images/img/teeth.png"
+    },
+    {
+      "title": "hair",
+      "category": "face",
+      "image": "../images/img/hair.png"
+    },
+    {
+      "title": "arm",
+      "category": "bodyparts",
+      "image": "../images/img/arm.png"
+    },
+    {
+      "title": "leg",
+      "category": "bodyparts",
+      "image": "../images/img/leg.png"
+    },
+    {
+      "title": "hand",
+      "category": "bodyparts",
+      "image": "../images/img/hand.png"
+    },
+    {
+      "title": "foot",
+      "category": "bodyparts",
+      "image": "../images/img/foot.png"
+    },
+    {
+      "title": "stomach",
+      "category": "bodyparts",
+      "image": "../images/img/stomach.png"
+    },
+    {
+      "title": "back",
+      "category": "bodyparts",
+      "image": "../images/img/back.png"
+    },
+    {
+      "title": "red",
+      "category": "colors",
+      "image": "../images/img/red.png"
+    },
+    {
+      "title": "blue",
+      "category": "colors",
+      "image": "../images/img/blue.png"
+    },
+    {
+      "title": "green",
+      "category": "colors",
+      "image": "../images/img/green.png"
+    },
+    {
+      "title": "yellow",
+      "category": "colors",
+      "image": "../images/img/yellow.png"
+    },
+    {
+      "title": "purple",
+      "category": "colors",
+      "image": "../images/img/purple.png"
+    },
+    {
+      "title": "orange",
+      "category": "colors",
+      "image": "../images/img/orange.png"
+    },
+    {
+      "title": "crayons",
+      "category": "crafts",
+      "image": "../images/img/crayons.png"
+    },
+    {
+      "title": "markers",
+      "category": "crafts",
+      "image": "../images/img/markers.png"
+    },
+    {
+      "title": "glue",
+      "category": "crafts",
+      "image": "../images/img/glue.png"
+    },
+    {
+      "title": "scissors",
+      "category": "crafts",
+      "image": "../images/img/scissors.png"
+    },
+    {
+      "title": "paint",
+      "category": "crafts",
+      "image": "../images/img/paint.png"
+    },
+    {
+      "title": "draw",
+      "category": "crafts",
+      "image": "../images/img/draw.png"
+    },
+    {
+      "title": "circle",
+      "category": "shapes",
+      "image": "../images/img/circle.png"
+    },
+    {
+      "title": "triangle",
+      "category": "shapes",
+      "image": "../images/img/triangle.png"
+    },
+    {
+      "title": "rectangle",
+      "category": "shapes",
+      "image": "../images/img/rectangle.png"
+    },
+    {
+      "title": "square",
+      "category": "shapes",
+      "image": "../images/img/square.png"
+    },
+    {
+      "title": "diamond",
+      "category": "shapes",
+      "image": "../images/img/diamond.png"
+    },
+    {
+      "title": "oval",
+      "category": "shapes",
+      "image": "../images/img/oval.png"
+    },
+    {
+      "title": "tshirt",
+      "category": "clothes",
+      "image": "../images/img/tshirt.png"
+    },
+    {
+      "title": "pants",
+      "category": "clothes",
+      "image": "../images/img/pants.png"
+    },
+    {
+      "title": "jacket",
+      "category": "clothes",
+      "image": "../images/img/jacket.png"
+    },
+    {
+      "title": "shorts",
+      "category": "clothes",
+      "image": "../images/img/shorts.png"
+    },
+    {
+      "title": "sneakers",
+      "category": "clothes",
+      "image": "../images/img/sneakers.png"
+    },
+    {
+      "title": "socks",
+      "category": "clothes",
+      "image": "../images/img/socks.png"
+    },
+    {
+      "title": "sunny",
+      "category": "weather",
+      "image": "../images/img/sunny.png"
+    },
+    {
+      "title": "rain",
+      "category": "weather",
+      "image": "../images/img/rain.png"
+    },
+    {
+      "title": "cloudy",
+      "category": "weather",
+      "image": "../images/img/cloudy.png"
+    },
+    {
+      "title": "snow",
+      "category": "weather",
+      "image": "../images/img/snow.png"
+    },
+    {
+      "title": "windy",
+      "category": "weather",
+      "image": "../images/img/windy.png"
+    },
+    {
+      "title": "partlycloudy",
+      "category": "weather",
+      "image": "../images/img/partlycloudy.png"
+    },
+    {
+      "title": "dog",
+      "category": "animals",
+      "image": "../images/img/dog.png"
+    },
+    {
+      "title": "cat",
+      "category": "animals",
+      "image": "../images/img/cat.png"
+    },
+    {
+      "title": "bird",
+      "category": "animals",
+      "image": "../images/img/bird.png"
+    },
+    {
+      "title": "bunny",
+      "category": "animals",
+      "image": "../images/img/bunny.png"
+    },
+    {
+      "title": "frog",
+      "category": "animals",
+      "image": "../images/img/frog.png"
+    },
+    {
+      "title": "fish",
+      "category": "animals",
+      "image": "../images/img/fish.png"
+    },
+    {
+      "title": "car",
+      "category": "transportation",
+      "image": "../images/img/car.png"
+    },
+    {
+      "title": "train",
+      "category": "transportation",
+      "image": "../images/img/train.png"
+    },
+    {
+      "title": "boat",
+      "category": "transportation",
+      "image": "../images/img/boat.png"
+    },
+    {
+      "title": "bicycle",
+      "category": "transportation",
+      "image": "../images/img/bicycle.png"
+    },
+    {
+      "title": "bus",
+      "category": "transportation",
+      "image": "../images/img/bus.png"
+    },
+    {
+      "title": "airplane",
+      "category": "transportation",
+      "image": "../images/img/airplane.png"
     }
   ]
 }
