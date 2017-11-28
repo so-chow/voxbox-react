@@ -10,17 +10,22 @@ class CardList extends Component {
     this.state={
       cards: jsonCardData
     };
+    this._cardClicked = this._cardClicked.bind(this);
   }
 
+_cardClicked(card){
+
+  this.props.hasBeenSelected(card)
+}
   // componentWillMount() {
 
   // }
 
 
   render() {
-
     let cardArray = this.state.cards.cards.map((card, index) =>
-      this.props.category === card.category ? <Card title={card.title} src={images[card.title]} key={index} />
+      this.props.category === card.category ?
+      <Card title={card.title} src={images[card.title]} key={index} hasBeenClicked={this._cardClicked} />
       : "");
 
     return (

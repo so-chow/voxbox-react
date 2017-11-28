@@ -19,6 +19,16 @@ import {
 
 
 class App extends Component {
+    constructor(props){
+    super(props);
+
+    this._handleSelectedCard = this._handleSelectedCard.bind(this);
+  }
+
+  _handleSelectedCard(card){
+    console.log(card)
+  }
+
   render() {
     return (
       <div className="App">
@@ -36,10 +46,10 @@ class App extends Component {
                 <NavLink className="link" activeClassName="is-active" to="/Snacks">Snacks</NavLink>
                 <NavLink className="link" activeClassName="is-active" to="/Food">Food</NavLink>
               </nav>
-              <Route exact path="/" component={Home} />
-              <Route exact path="/Greetings" component={Greetings} />
-              <Route exact path="/Feelings" component={Feelings} />
-              <Route exact path="/Modifiers" component={Modifiers} />
+              <Route exact path="/" render={props => <Home {...props} hasBeenSelected={this._handleSelectedCard}/>} />
+              <Route path="/Greetings" component={Greetings} />
+              <Route path="/Feelings" component={Feelings} />
+              <Route path="/Modifiers" component={Modifiers} />
               <Route path="/Places" component={Places} />
               <Route path="/Toys" component={Toys} />
               <Route path="/Snacks" component={Snacks} />
