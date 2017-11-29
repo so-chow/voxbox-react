@@ -34,7 +34,7 @@ class App extends Component {
         <Header />
         <SentenceStrip newWord={this.state.word} />
           <Router>
-            <div>
+            <div className="Site-content">
               <nav className="tabs">
                 <NavLink exact={true} className="link" activeClassName="is-active" to="/">Home</NavLink>
                 <NavLink className="link" activeClassName="is-active" to="/Greetings">Greetings</NavLink>
@@ -55,7 +55,7 @@ class App extends Component {
               <Route path="/Food" render={props => <Home {...props} category="food" hasBeenSelected={this._handleSelectedCard}/>} />
             </div>
           </Router>
-        <Footer />
+        <Footer className="clearfix"/>
       </div>
     );
   }

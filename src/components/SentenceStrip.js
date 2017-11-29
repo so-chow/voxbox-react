@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import '../App.css';
 import jsonCardData from '../images/images.json';
 import PictureSentence from './PictureSentence';
+import Card from './Card';
+import images from '../images/images';
 
 class SentenceStrip extends Component {
   constructor(props){
@@ -27,26 +29,32 @@ class SentenceStrip extends Component {
   }
 
   componentWillReceiveProps(newProps){
-    console.log(newProps.newWord)
-
     var newSentence = this.state.sentence + " " + newProps.newWord;
-    console.log('I THINK THIS IS THE NEW INPUT VALUE:', this.refs.textInput.value);
-
+    var newArray = [...this.state.images, newProps.newWord]
     this.setState({
       sentence: newSentence,
-      images: [...this.state.images, newProps.newWord]
+      images: newArray
     })
     console.log(this.state.images)
-
   }
 
   render() {
-    // let imageArray = jsonCardData.cards.map((card, index) =>
-    //   this.state.category === card.category ?
-    //   <div></div>)
+
+    var pictureSentence = [];
+    var picture = this.state.images;
+    console.log(picture, picture.length);
+    console.log(jsonCardData.cards[0].title);
+    for(var i=0; i < picture.length; i++){
+      for(var j=0; j < jsonCardData.cards.length; j++){
+        if(picture[i] === jsonCardData.cards[j].title){
+          pictureSentence.push(<Card title={jsonCardData.cards[j].title} src={images[jsonCardData.cards[j].title]} key={i} />)
+        }
+      }
+    }
+
     return (
       <div>
-        <PictureSentence />
+        <div className="picture-array">{pictureSentence}</div>
         <div className="form">
           <form name="sentence-strip" id="sentence-strip">
             <input type="text" name="sentence" placeholder="Click on icons to build a sentence"

@@ -36,7 +36,7 @@
       "image": "../images/img/see.png"
     },
     {
-      "title": "alldone",
+      "title": "all done",
       "category": "home",
       "image": "../images/img/alldone.png"
     },
@@ -66,7 +66,7 @@
       "image": "../images/img/please.png"
     },
     {
-      "title": "thankyou",
+      "title": "thank you",
       "category": "greetings",
       "image": "../images/img/thankyou.png"
     },
@@ -176,7 +176,7 @@
       "image": "../images/img/puzzle.png"
     },
     {
-      "title": "toycars",
+      "title": "toy cars",
       "category": "toys",
       "image": "../images/img/toycars.png"
     },
@@ -206,17 +206,17 @@
       "image": "../images/img/ball.png"
     },
     {
-      "title": "playdoh",
+      "title": "play doh",
       "category": "toys",
       "image": "../images/img/playdoh.png"
     },
     {
-      "title": "babydoll",
+      "title": "baby doll",
       "category": "toys",
       "image": "../images/img/doll.png"
     },
     {
-      "title": "dollhouse",
+      "title": "doll house",
       "category": "toys",
       "image": "../images/img/dollhouse.png"
     },
@@ -241,12 +241,12 @@
       "image": "../images/img/crackers.png"
     },
     {
-      "title": "fruitsnack",
+      "title": "fruit snack",
       "category": "snacks",
       "image": "../images/img/fruitsnack.png"
     },
     {
-      "title": "fishcrackers",
+      "title": "fish crackers",
       "category": "snacks",
       "image": "../images/img/fishcrackers.png"
     },
@@ -266,7 +266,7 @@
       "image": "../images/img/pizza.png"
     },
     {
-      "title": "chickennuggets",
+      "title": "chicken nuggets",
       "category": "food",
       "image": "../images/img/chickennuggets.png"
     },
@@ -291,17 +291,17 @@
       "image": "../images/img/milk.png"
     },
     {
-      "title": "chocolatemilk",
+      "title": "chocolate milk",
       "category": "drinks",
       "image": "../images/img/chocolatemilk.png"
     },
     {
-      "title": "applejuice",
+      "title": "apple juice",
       "category": "drinks",
       "image": "../images/img/applejuice.png"
     },
     {
-      "title": "juicebox",
+      "title": "juice box",
       "category": "drinks",
       "image": "../images/img/juicebox.png"
     },
@@ -461,7 +461,7 @@
       "image": "../images/img/oval.png"
     },
     {
-      "title": "tshirt",
+      "title": "t-shirt",
       "category": "clothes",
       "image": "../images/img/tshirt.png"
     },
@@ -516,7 +516,7 @@
       "image": "../images/img/windy.png"
     },
     {
-      "title": "partlycloudy",
+      "title": "partly cloudy",
       "category": "weather",
       "image": "../images/img/partlycloudy.png"
     },
