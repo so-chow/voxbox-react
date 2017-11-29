@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import CardList from './CardList';
 
+
 class Home extends Component {
   constructor(props){
     super(props);
@@ -16,7 +17,7 @@ class Home extends Component {
    render() {
     return (
       <div className="cards-container">
-        <CardList category="home" hasBeenSelected={this._handleSelectedCard}/>
+        <CardList category={this.props.category} hasBeenSelected={this._handleSelectedCard}/>
       </div>
     );
   }

@@ -14,12 +14,8 @@ class CardList extends Component {
   }
 
 _cardClicked(card){
-
   this.props.hasBeenSelected(card)
 }
-  // componentWillMount() {
-
-  // }
 
 
   render() {

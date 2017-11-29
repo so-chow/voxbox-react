@@ -3,14 +3,8 @@ import './App.css';
 import Header from './components/Header';
 import SentenceStrip from './components/SentenceStrip';
 import Home from './components/Home';
-import Greetings from './components/Greetings';
-import Modifiers from './components/Modifiers';
-import Feelings from './components/Feelings';
-import Places from './components/Places';
-import Toys from './components/Toys';
-import Snacks from './components/Snacks';
 import Footer from './components/Footer';
-import Food from './components/Food';
+
 import {
   BrowserRouter as Router,
   Route,
@@ -21,19 +15,24 @@ import {
 class App extends Component {
     constructor(props){
     super(props);
-
+    this.state={
+      word: ''
+    }
     this._handleSelectedCard = this._handleSelectedCard.bind(this);
   }
 
   _handleSelectedCard(card){
-    console.log(card)
+    console.log(card, "app")
+    this.setState({
+      word: card
+    })
   }
 
   render() {
     return (
       <div className="App">
         <Header />
-        <SentenceStrip />
+        <SentenceStrip newWord={this.state.word} />
           <Router>
             <div>
               <nav className="tabs">
@@ -46,14 +45,14 @@ class App extends Component {
                 <NavLink className="link" activeClassName="is-active" to="/Snacks">Snacks</NavLink>
                 <NavLink className="link" activeClassName="is-active" to="/Food">Food</NavLink>
               </nav>
-              <Route exact path="/" render={props => <Home {...props} hasBeenSelected={this._handleSelectedCard}/>} />
-              <Route path="/Greetings" component={Greetings} />
-              <Route path="/Feelings" component={Feelings} />
-              <Route path="/Modifiers" component={Modifiers} />
-              <Route path="/Places" component={Places} />
-              <Route path="/Toys" component={Toys} />
-              <Route path="/Snacks" component={Snacks} />
-              <Route path="/Food" component={Food} />
+              <Route exact path="/" render={props => <Home {...props} category="home" hasBeenSelected={this._handleSelectedCard}/>} />
+              <Route path="/Greetings" render={props => <Home {...props} category="greetings" hasBeenSelected={this._handleSelectedCard}/>} />
+              <Route path="/Feelings" render={props => <Home {...props} category="feelings" hasBeenSelected={this._handleSelectedCard}/>} />
+              <Route path="/Modifiers" render={props => <Home {...props} category="modifiers" hasBeenSelected={this._handleSelectedCard}/>} />
+              <Route path="/Places" render={props => <Home {...props} category="places" hasBeenSelected={this._handleSelectedCard}/>} />
+              <Route path="/Toys" render={props => <Home {...props} category="toys" hasBeenSelected={this._handleSelectedCard}/>} />
+              <Route path="/Snacks" render={props => <Home {...props} category="snacks" hasBeenSelected={this._handleSelectedCard}/>} />
+              <Route path="/Food" render={props => <Home {...props} category="food" hasBeenSelected={this._handleSelectedCard}/>} />
             </div>
           </Router>
         <Footer />
