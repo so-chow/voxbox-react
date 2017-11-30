@@ -9,9 +9,10 @@ Speaking is how we as adults communicate with the people around us. It allows us
 * npm intall to install dependencies.
 * npm start to run in localhost:3000
 
-    or visit [VoxBox](https://voxbox-709f7.firebaseapp.com/) on Firebase!
 
-# Technologies Used
+or visit [VoxBox](https://voxbox-709f7.firebaseapp.com/) on Firebase!
+
+## Technologies Used
     
 * React.js
 * Firebase for deployment
