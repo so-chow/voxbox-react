@@ -30,6 +30,7 @@ Once the child understands the patterns of how to navigate through this site, th
 
 # Additional Features
 * Ability to add your own word card.
+* Create a reset button
 * Ability to have a non-child proof version where you can also type in a word on the input.
 * Ability to have a log-in option where the app renders words that the child uses most frequently into the home page.
 * Adding more cards/words into images.json

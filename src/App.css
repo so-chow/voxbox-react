@@ -12,19 +12,21 @@
 /*header styles*/
 .App-header {
   background-color: rgb(127,180,65);
-  padding: 20px;
-  color: white;
   margin-bottom: 20px;
+  padding: 15px;
 }
 
 .App-title {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 3em;
-  font-weight: bold;
+  margin: 0;
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 90px;
 }
 
 .App-intro {
   font-family: 'Montserrat', sans-serif;
+  color: white;
   font-size: 1em;
 }
 
