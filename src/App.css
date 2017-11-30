@@ -12,8 +12,9 @@
 /*header styles*/
 .App-header {
   background-color: rgb(127,180,65);
-   padding: 20px;
+  padding: 20px;
   color: white;
+  margin-bottom: 20px;
 }
 
 .App-title {
@@ -108,6 +109,8 @@ input[type=text]{
 
 .icons-button{
   margin: 5px;
+  height:255px;
+  width: 255px;
 }
 
 .icons-button:focus{
@@ -130,7 +133,7 @@ footer p{
 }
 
 .heart{
-  color: pink;
+  color: rgb(275,105,143);
 }
 
 .clearfix:after {

@@ -1,28 +1,22 @@
 import React, { Component } from 'react';
 import '../App.css';
 import Card from './Card';
-import jsonCardData from '../images/images.json';
 import images from '../images/images';
 
 class CardList extends Component {
-  constructor(props) {
-    super(props);
-    this.state={
-      cards: jsonCardData
-    };
-    this._cardClicked = this._cardClicked.bind(this);
-  }
 
-_cardClicked(card){
-  this.props.hasBeenSelected(card)
-}
-
+// componentDidMount(){
+//   let categoryCards = jsonCardData.cards.filter(card => this.props.category === card.category)
+//   this.setState({
+//     categoryCards: categoryCards
+//   })
+// }
 
   render() {
-    let cardArray = this.state.cards.cards.map((card, index) =>
-      this.props.category === card.category ?
-      <Card title={card.title} src={images[card.title]} key={index} hasBeenClicked={this._cardClicked} />
-      : "");
+    let categoryCards = this.props.entireCardList.filter(card => this.props.category === card.category) //finding cards from their category render only matched category cards
+    let cardArray = categoryCards.map((card, index) => (
+      <Card title={card.title} src={images[card.title]} key={index} hasBeenClicked={this.props._moveCardToSentenceList} />
+      ));
 
     return (
       <div>
