@@ -27,20 +27,12 @@ class SentenceStrip extends Component {
     speechSynthesis.speak(utterance);
   }
 
-  // componentWillReceiveProps(newProps){
-  //   var newSentence = this.props.sentenceList.map(card => card.title).join(" ");
-  //   this.setState({
-  //     sentence: newSentence
-  //   })
-  // }
-
   render() {
 
    var pictureSentence = this.props.sentenceList.map((card, index) => (
     <Card title={card.title} src={images[card.title]}
             key={index} hasBeenClicked={this.props._moveCardToEntireCardList} />
     ));
-
    var newSentence = this.props.sentenceList.map(card => card.title).join(" ");
 
     return (
@@ -62,4 +54,3 @@ class SentenceStrip extends Component {
 }
 
 export default SentenceStrip;
-

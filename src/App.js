@@ -36,13 +36,10 @@ class App extends Component {
       }
     })
     let addCardToSentenceList = this.state.sentenceList.concat(movingCard);
-
     this.setState({
       entireCardList: updatedCardList,
       sentenceList: addCardToSentenceList
     })
-    console.log(this.state.entireCardList, "_moveCardToSentenceList");
-    console.log(this.state.sentenceList, "_moveCardToSentenceList");
   }
 
   _moveCardToEntireCardList(cardTitle){
@@ -56,17 +53,13 @@ class App extends Component {
       }
     })
     let addCardToCardList = this.state.entireCardList.concat(movingCard);
-
     this.setState({
       entireCardList: addCardToCardList,
       sentenceList: removeCardFromSentenceList,
     })
-    console.log(this.state.entireCardList, "_moveCardToEntireCardList");
-    console.log(this.state.sentenceList, "_moveCardToEntireCardList");
   }
 
   render() {
-    console.log(this.state.entireCardList)
     return (
       <div className="App">
         <Header />
