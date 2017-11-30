@@ -45,7 +45,7 @@ class SentenceStrip extends Component {
             value={newSentence}
             onChange={this.updateText}
             />
-            <button className="play-btn" onClick={this._speak}>Play</button>
+            <button className="play-btn" onClick={this._speak}><img className="play-button-image"src={images.playbutton} alt="Play"/></button>
           </form>
         </div>
       </div>

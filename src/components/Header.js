@@ -7,7 +7,7 @@ class Header extends Component {
       <header className="App-header">
         <h1 className="App-title">Vox Box</h1>
         <p className="App-intro">
-          A communication board for non-verbal, Autistic, children in Early Childhood.
+          A communication board that gives a voice to non-verbal, Autistic children.
         </p>
       </header>
     );

@@ -113,7 +113,9 @@ const images = {
   boat: require("./img/boat.png"),
   bicycle: require("./img/bicycle.png"),
   bus: require("./img/bus.png"),
-  airplane: require("./img/airplane.png")
+  airplane: require("./img/airplane.png"),
+  playbutton: require("./playbutton.png"),
+  homewebsite: require("./home.png")
 };
 
 export default images;

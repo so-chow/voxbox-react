@@ -67,6 +67,11 @@ input[type=text]{
   flex: 1;
 }
 
+.play-button-image{
+  width:15vh;
+  height:10vh;
+}
+
 /*tabs styles*/
 .tabs{
   font-family: 'Raleway';

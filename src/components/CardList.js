@@ -5,13 +5,6 @@ import images from '../images/images';
 
 class CardList extends Component {
 
-// componentDidMount(){
-//   let categoryCards = jsonCardData.cards.filter(card => this.props.category === card.category)
-//   this.setState({
-//     categoryCards: categoryCards
-//   })
-// }
-
   render() {
     let categoryCards = this.props.entireCardList.filter(card => this.props.category === card.category) //finding cards from their category render only matched category cards
     let cardArray = categoryCards.map((card, index) => (
