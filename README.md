@@ -4,17 +4,17 @@ Speaking is how we as adults communicate with the people around us. It allows us
 
 ## Getting Started
 
-1. Fork and clone this repo in your terminal: git clone https://github.com/so-chow/voxbox-react.git
-1. Change directory into the same directory as this project. cd voxbox-react
-1. npm intall to install dependencies.
-1. npm start to run in localhost:3000
+* Fork and clone this repo in your terminal: git clone https://github.com/so-chow/voxbox-react.git
+* Change directory into the same directory as this project. cd voxbox-react
+* npm intall to install dependencies.
+* npm start to run in localhost:3000
 
     or visit [VoxBox](https://voxbox-709f7.firebaseapp.com/) on Firebase!
 
 # Technologies Used
     
-1. React.js
-1. Firebase for deployment
+* React.js
+* Firebase for deployment
 
 ## How To Use
 
