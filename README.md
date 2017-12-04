@@ -1,6 +1,6 @@
 # VoxBox 
 
-Speaking is how we as adults communicate with the people around us. It allows us to interact with each other, influcence the world around us, and get our needs met. But for many children with autism, speech is not an option. Nearly a third of the people on the autism spectrum use no spoken language or only a few words. Many of the tools currently out there are aimed towards older children and adults. This app is aimed to give a voice to young children who do not yet have one.
+Speaking is how we as adults communicate with the people around us. It allows us to interact with each other, influcence the world around us, and get our needs met. But for many children with autism, speech is not an option. Nearly a third of the people on the autism spectrum use no spoken language or only a few words. Many of the AAC (Augmented & Alternative Communication)tools currently out there are aimed towards older children and adults. This app is aimed to give a voice to young children who do not yet have one.
 
 ## Getting Started
 

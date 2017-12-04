@@ -62,31 +62,31 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header />
-        <SentenceStrip sentenceList={this.state.sentenceList} _moveCardToEntireCardList={this._moveCardToEntireCardList} />
-          <Router>
-            <div className="Site-content">
-              <nav className="tabs">
-                <NavLink exact={true} className="link" activeClassName="is-active" to="/">Home</NavLink>
-                <NavLink className="link" activeClassName="is-active" to="/Greetings">Greetings</NavLink>
-                <NavLink className="link" activeClassName="is-active" to="/Feelings">Feelings</NavLink>
-                <NavLink className="link" activeClassName="is-active" to="/Modifiers">Modifiers</NavLink>
-                <NavLink className="link" activeClassName="is-active" to="/Places">Places</NavLink>
-                <NavLink className="link" activeClassName="is-active" to="/Toys">Toys</NavLink>
-                <NavLink className="link" activeClassName="is-active" to="/Snacks">Snacks</NavLink>
-                <NavLink className="link" activeClassName="is-active" to="/Food">Food</NavLink>
-              </nav>
-              <Route exact path="/" render={props => <Home {...props} category="home" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
-              <Route path="/Greetings" render={props => <Home {...props} category="greetings" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
-              <Route path="/Feelings" render={props => <Home {...props} category="feelings" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
-              <Route path="/Modifiers" render={props => <Home {...props} category="modifiers" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
-              <Route path="/Places" render={props => <Home {...props} category="places" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
-              <Route path="/Toys" render={props => <Home {...props} category="toys" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
-              <Route path="/Snacks" render={props => <Home {...props} category="snacks" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
-              <Route path="/Food" render={props => <Home {...props} category="food" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
-            </div>
-          </Router>
-        <Footer className="clearfix"/>
+          <Header />
+          <SentenceStrip sentenceList={this.state.sentenceList} _moveCardToEntireCardList={this._moveCardToEntireCardList} />
+            <Router>
+              <div className="Site-content">
+                <nav className="tabs">
+                  <NavLink exact={true} className="link" activeClassName="is-active" to="/">Home</NavLink>
+                  <NavLink className="link" activeClassName="is-active" to="/Greetings">Greetings</NavLink>
+                  <NavLink className="link" activeClassName="is-active" to="/Feelings">Feelings</NavLink>
+                  <NavLink className="link" activeClassName="is-active" to="/Modifiers">Modifiers</NavLink>
+                  <NavLink className="link" activeClassName="is-active" to="/Places">Places</NavLink>
+                  <NavLink className="link" activeClassName="is-active" to="/Toys">Toys</NavLink>
+                  <NavLink className="link" activeClassName="is-active" to="/Snacks">Snacks</NavLink>
+                  <NavLink className="link" activeClassName="is-active" to="/Food">Food</NavLink>
+                </nav>
+                <Route exact path="/" render={props => <Home {...props} category="home" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
+                <Route path="/Greetings" render={props => <Home {...props} category="greetings" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
+                <Route path="/Feelings" render={props => <Home {...props} category="feelings" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
+                <Route path="/Modifiers" render={props => <Home {...props} category="modifiers" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
+                <Route path="/Places" render={props => <Home {...props} category="places" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
+                <Route path="/Toys" render={props => <Home {...props} category="toys" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
+                <Route path="/Snacks" render={props => <Home {...props} category="snacks" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
+                <Route path="/Food" render={props => <Home {...props} category="food" _moveCardToSentenceList={this._moveCardToSentenceList} entireCardList={this.state.entireCardList}/>} />
+              </div>
+            </Router>
+        <Footer className="footer"/>
       </div>
     );
   }

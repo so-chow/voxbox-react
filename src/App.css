@@ -1,12 +1,26 @@
+#root{
+  flex:1 0 auto;
+}
+
 .App {
   text-align: center;
   font-family: 'Raleway';
   display: flex;
+  display: table;
   flex-direction: column;
+  height: 100%;
+  width:100%;
 }
 
 .Site-content{
-  flex: 1;
+  flex: 1 0 auto;
+  padding-bottom: 60px;
+  display:flex;
+  display:table;
+  height:100%;
+  width:100%;
+  flex-direction: column;
+  text-align: center;
 }
 
 /*header styles*/
@@ -143,12 +157,7 @@ footer p{
   color: rgb(275,105,143);
 }
 
-.clearfix:after {
-  visibility: hidden;
-  display: block;
-  content: " ";
-  clear: both;
-  height: 0;
-  font-size: 0;
+.footer{
+  padding-top: 60px;
 }
 
