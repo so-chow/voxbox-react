@@ -1,26 +1,32 @@
-#root{
-  flex:1 0 auto;
+body{
+/*  height: 100%;
+  min-height: 100%;*/
+  margin: 0;
+/*  flex-direction: column;*/
 }
 
 .App {
   text-align: center;
   font-family: 'Raleway';
-  display: flex;
   display: table;
+  display:flex;
   flex-direction: column;
   height: 100%;
-  width:100%;
+  min-height:100vh;
+  width: 100%;
 }
 
 .Site-content{
-  flex: 1 0 auto;
-  padding-bottom: 60px;
-  display:flex;
-  display:table;
   height:100%;
-  width:100%;
-  flex-direction: column;
-  text-align: center;
+  flex:1;
+}
+
+.Site-content:after {
+    content: ‘\00a0’;
+    display: block;
+    margin-top: var( — space);
+    height: 0;
+    visibility: hidden;
 }
 
 /*header styles*/
@@ -88,6 +94,10 @@ input[type=text]{
   height:10vh;
 }
 
+.play-btn:focus{
+  outline: none;
+}
+
 /*tabs styles*/
 .tabs{
   font-family: 'Raleway';
@@ -118,13 +128,12 @@ input[type=text]{
 .cards-container{
   border: 2px solid #ffedf1;
   height: 100%;
-  padding: 20px;
   background-color: #fdfaf5;
 }
 
 .cards {
-  width: 255px;
-  height: 255px;
+  width: 260px;
+  height: 260px;
   margin: 5px;
 }
 
@@ -138,26 +147,28 @@ input[type=text]{
   outline:0;
 }
 
-/*footer styles*/
-footer {
-  margin: 0;
-  padding:2em;
+/*.card-array{
+  padding:1em;
+  height:100%;
+}*/
+
+/*footer*/
+.footer{
+  clear: both;
+  padding: 3em;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: silver;
   font-size: 1.3rem;
   background-color: rgb(15,135,150);
- }
+  margin-top: auto;
+}
 
-footer p{
+.footer p{
   margin:0;
 }
 
 .heart{
   color: rgb(275,105,143);
-}
-
-.footer{
-  padding-top: 60px;
 }
 

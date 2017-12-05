@@ -579,6 +579,91 @@
       "title": "airplane",
       "category": "transportation",
       "image": "../images/img/airplane.png"
+    },
+    {
+      "title": "home-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/home.png"
+    },
+    {
+      "title": "greetings-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/greetings.png"
+    },
+    {
+      "title": "feelings-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/feelings.png"
+    },
+    {
+      "title": "time-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/time.png"
+    },
+    {
+      "title": "places-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/places.png"
+    },
+    {
+      "title": "toys-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/toys.png"
+    },
+    {
+      "title": "snacks-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/snacks.png"
+    },
+    {
+      "title": "drinks-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/drinks.png"
+    },
+    {
+      "title": "face-tab",
+      "category": "tabs",
+      "image": "../images/img/face.png"
+    },
+    {
+      "title": "bodyparts-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/bodyparts.png"
+    },
+    {
+      "title": "colors-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/colors.png"
+    },
+    {
+      "title": "crafts-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/crafts.png"
+    },
+    {
+      "title": "shapes-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/shapes.png"
+    },
+    {
+      "title": "clothes-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/clothes.png"
+    },
+    {
+      "title": "weather-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/weather.png"
+    },
+    {
+      "title": "animals-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/animals.png"
+    },
+    {
+      "title": "transportation-tab",
+      "category": "tabs",
+      "image": "../images/img/categories/transportation.png"
     }
   ]
 }

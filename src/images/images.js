@@ -115,7 +115,24 @@ const images = {
   bus: require("./img/bus.png"),
   airplane: require("./img/airplane.png"),
   playbutton: require("./playbutton.png"),
-  homewebsite: require("./home.png")
+  "home-tab": require("./img/categories/home.png"),
+  "greetings-tab": require("./img/categories/greetings.png"),
+  "feelings-tab": require("./img/categories/feelings.png"),
+  "time-tab": require("./img/categories/time.png"),
+  "places-tab": require("./img/categories/places.png"),
+  "toys-tab": require("./img/categories/toys.png"),
+  "snacks-tab": require("./img/categories/snacks.png"),
+  "food-tab": require("./img/categories/food.png"),
+  "drinks-tab": require("./img/categories/drinks.png"),
+  "face-tab": require("./img/categories/face.png"),
+  "bodyparts-tab": require("./img/categories/bodyparts.png"),
+  "colors-tab": require("./img/categories/colors.png"),
+  "crafts-tab": require("./img/categories/crafts.png"),
+  "shapes-tab": require("./img/categories/shapes.png"),
+  "clothes-tab": require("./img/categories/clothes.png"),
+  "weather-tab": require("./img/categories/weather.png"),
+  "animals-tab": require("./img/categories/animals.png"),
+  "transportation-tab": require("./img/categories/transportation.png")
 };
 
 export default images;
