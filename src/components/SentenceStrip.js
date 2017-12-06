@@ -23,8 +23,16 @@ class SentenceStrip extends Component {
   _speak(e){
     e.preventDefault();
     var utterance = new SpeechSynthesisUtterance(this.refs.textInput.value);
-    utterance.voice = speechSynthesis.getVoices().filter(function(voice) { return voice.name === 'Google US English'; })[0];
-    speechSynthesis.speak(utterance);
+    utterance.onstart = function (event) {
+        console.log('The utterance started.')
+    };
+    window.speechSynthesis.onvoiceschanged = function () {
+
+        var voices = window.speechSynthesis.getVoices();
+        utterance.voice = voices.filter(function (voice) { return voice.lang === 'pt-BR'; })[0];
+
+    };
+    window.speechSynthesis.speak(utterance);
   }
 
   render() {
